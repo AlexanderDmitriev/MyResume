@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root {
   --primary-text-color: #757575;
-  --secondary-text-color: #212121;
+  --dark-text-color: #212121;
   --outside-background-color: #2f303a;
   --light-text-color: #ffffff;
   --second-color: #f7971a;
@@ -39,14 +39,19 @@ ul {
 
 .link {
   text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+  color: var(--dark-text-color);
   transition-property: color, fill;
   transition-duration: var(--timing);
   transition-timing-function: var(--cubik);
 }
 
 .link:hover, .link:focus {
-  color: var(--second-color);
-  fill: var(--second-color);
+  color: var(--primary-text-color);
+  fill: var(--primary-text-color);
 }
 
 .list {
@@ -144,5 +149,42 @@ ul {
 
 .header-localization__ukrainian {
   background-image: url(../images/ua-opt.svg);
+}
+
+aside {
+  width: 30%;
+  height: 100%;
+  background-color: var(--second-color);
+  overflow: auto;
+  float: left;
+  padding: 15px;
+}
+
+.sidebar-title {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.14;
+  font-style: normal;
+  color: var(--dark-text-color);
+}
+
+.sidebar-content {
+  padding: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+  color: var(--dark-text-color);
+}
+
+.sidebar-list {
+  padding: 0 15px;
+}
+
+.content {
+  width: 70%;
+  float: right;
+  padding: 25px;
 }
 /*# sourceMappingURL=main.css.map */

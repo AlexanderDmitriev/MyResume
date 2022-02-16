@@ -26,14 +26,14 @@ ul {
 
 .link {
   text-decoration: none;
-
+  @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
   transition-property: color, fill;
   transition-duration: var(--timing);
   transition-timing-function: var(--cubik);
   &:hover,
   &:focus {
-    color: var(--second-color);
-    fill: var(--second-color);
+    color: var(--primary-text-color);
+    fill: var(--primary-text-color);
   }
 }
 

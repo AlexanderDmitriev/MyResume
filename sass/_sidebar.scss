@@ -1,0 +1,22 @@
+aside {
+  width: 30%;
+  height: 100%;
+  background-color: var(--second-color);
+  overflow: auto;
+  float: left;
+  padding: 15px;
+}
+
+.sidebar-title {
+  padding: 10px;
+  @include text-decoration(700, 20px, 1.14, var(--dark-text-color));
+}
+
+.sidebar-content {
+  padding: 3px;
+  @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+}
+
+.sidebar-list {
+  padding: 0 15px;
+}
