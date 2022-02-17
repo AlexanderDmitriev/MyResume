@@ -69,8 +69,6 @@ ul {
 /**Общий контейнер для элементов макета**/
 .container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -151,13 +149,14 @@ ul {
   background-image: url(../images/ua-opt.svg);
 }
 
-aside {
+.sidebar {
   width: 30%;
-  height: 100%;
   background-color: var(--second-color);
   overflow: auto;
   float: left;
   padding: 15px;
+  position: relative;
+  bottom: 0;
 }
 
 .sidebar-title {
@@ -186,5 +185,25 @@ aside {
   width: 70%;
   float: right;
   padding: 25px;
+}
+
+.content-title__secondary {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+  font-style: normal;
+  color: var(--dark-text-color);
+}
+
+.content-block {
+  border: 2px solid var(--dark-text-color);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.primaryContent {
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */
