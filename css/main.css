@@ -206,4 +206,8 @@ ul {
 .primaryContent {
   display: flex;
 }
+
+.content-project {
+  padding: 15px 0;
+}
 /*# sourceMappingURL=main.css.map */
