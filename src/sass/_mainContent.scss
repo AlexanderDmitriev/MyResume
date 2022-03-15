@@ -1,0 +1,25 @@
+.content {
+  width: 70%;
+  float: right;
+  padding: 25px;
+}
+
+.content-title__secondary {
+  padding: 10px;
+  @include text-decoration(700, 16px, 1.14, var(--dark-text-color));
+}
+
+.content-block {
+  border: 2px solid var(--dark-text-color);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.primaryContent {
+  display: flex;
+}
+
+.content-project {
+  padding: 15px 0;
+}
