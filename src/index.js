@@ -1,5 +1,5 @@
 import text from "./localization.json";
-import './sass/main.css';
+import './sass/main.scss';
 
 /////Задаю по умолчанию язык
 export const locale = {
