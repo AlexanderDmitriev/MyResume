@@ -10,14 +10,51 @@
 
 .sidebar-title {
   padding: 10px;
-  @include text-decoration(700, 20px, 1.14, var(--dark-text-color));
+  @include text-decoration(700, 12px, 1.14, var(--dark-text-color));
+  @media screen and (min-width: 480px) {
+    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+  }
+
+  @media screen and (min-width: 768px) {
+    @include text-decoration(700, 16px, 1.14, var(--dark-text-color));
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include text-decoration(700, 20px, 1.14, var(--dark-text-color));
+  }
 }
 
 .sidebar-content {
   padding: 3px;
-  @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+  @include text-decoration(700, 8px, 1.14, var(--dark-text-color));
+  @media screen and (min-width: 480px) {
+    @include text-decoration(700, 10px, 1.14, var(--dark-text-color));
+  }
+
+  @media screen and (min-width: 768px) {
+    @include text-decoration(700, 12px, 1.14, var(--dark-text-color));
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+  }
 }
 
 .sidebar-list {
   padding: 0 15px;
+}
+
+.photo{
+  width: 100px;
+  @media screen and (min-width: 480px) {
+    width: 120px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 200px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 240px;
+  }
 }
