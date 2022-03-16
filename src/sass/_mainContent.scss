@@ -6,7 +6,34 @@
 
 .content-title__secondary {
   padding: 10px;
-  @include text-decoration(700, 16px, 1.14, var(--dark-text-color));
+  @include text-decoration(700, 12px, 1.14, var(--dark-text-color));
+  @media screen and (min-width: 480px) {
+    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+  }
+
+  @media screen and (min-width: 768px) {
+    @include text-decoration(700, 15px, 1.14, var(--dark-text-color));
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include text-decoration(700, 16px, 1.14, var(--dark-text-color));
+  }
+}
+
+.content-text {
+  padding: 3px;
+  @include text-decoration(700, 10px, 1.14, var(--dark-text-color));
+  @media screen and (min-width: 480px) {
+    @include text-decoration(700, 11px, 1.14, var(--dark-text-color));
+  }
+
+  @media screen and (min-width: 768px) {
+    @include text-decoration(700, 12px, 1.14, var(--dark-text-color));
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+  }
 }
 
 .content-block {
@@ -21,5 +48,20 @@
 }
 
 .content-project {
-  padding: 15px 0;
+  padding-top: 15px;
+}
+
+.project-link{
+  @include text-decoration(700, 12px, 1.14, var(--second-color));
+  @media screen and (min-width: 480px) {
+    @include text-decoration(700, 10px, 1.14, var(--second-color));
+  }
+
+  @media screen and (min-width: 768px) {
+    @include text-decoration(700, 12px, 1.14, var(--second-color));
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include text-decoration(700, 14px, 1.14, var(--second-color));
+  }
 }

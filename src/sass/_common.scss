@@ -26,10 +26,22 @@ ul {
 
 .link {
   text-decoration: none;
-  @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+  @include text-decoration(700, 7px, 1.14, var(--dark-text-color));
   transition-property: color, fill;
   transition-duration: var(--timing);
   transition-timing-function: var(--cubik);
+  @media screen and (min-width: 480px) {
+    @include text-decoration(700, 10px, 1.14, var(--dark-text-color));
+  }
+
+  @media screen and (min-width: 768px) {
+    @include text-decoration(700, 12px, 1.14, var(--dark-text-color));
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+  }
+
   &:hover,
   &:focus {
     color: var(--primary-text-color);
