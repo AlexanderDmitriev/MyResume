@@ -1,6 +1,8 @@
 import text from "./localization.json";
 import './sass/main.scss';
 
+//"build": "parcel build src/*.html --public-url /parcel-project-template/"
+
 /////Задаю по умолчанию язык
 export const locale = {
   lang: "en-US",
