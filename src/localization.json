@@ -1,8 +1,8 @@
 {
     "en-US" :{
         "title":"Dmitriev Alexander - Junior Fullstack Developer",
-        "resume" : "Resume",
-        "resume-text" : "I am a junior fullstack developer, who study HTML5, CSS, Javascript, React and Node.js now. English - Elementary. Developing is very interesting for me because it is a very creative activity. Every task have a lot of decisions for the task solving. I like to find the best decision for the best results. I shell fit well into your team thanks to my sense of humor, advertency and sociability. That`s why I good for this work.",
+        "resume" : "Junior Front-end Developer",
+        "resume-text" : "I am a junior Front-end Developer, who has sound knowledge of HTML5, CSS, Javascript, React and Node.js. I`m fond of development because it  always involves creativity and an integrated approach to solving tasks. I like to find the best decision for the best results. I`ll fit well into your team because of my sense of humor, advertency and sociability.",
         "location" : "Location: Kharkov, Ukraine",
         "contacts" :"Contacts",
         "soft1" : "Self-discipline in work and life;",
@@ -49,8 +49,8 @@
         "addEducation-text3":"Java Additional (not finished) | october 2016 - december 2016"
     },
     "ru-RU" :{
-        "title":"Дмитриев Александр - Junior Fullstack Developer",
-        "resume" : "Резюме",
+        "title":"Дмитриев Александр",
+        "resume" : "Junior Fullstack Developer",
         "resume-text" : "Я junior fullstack developer, который сейчас активно изучает HTML5, CSS, Javascript, React and Node.js. Английский у меня пока на начальном уровне. Разработка приложений для меня это очень интересный, захватывающий процесс потому, что это очень творческая работа, на которой всегда тебя ждёт что-то новое.Каждая задача имеет множество решений. И самое приятное — это находить оптимальное. Я отлично вольюсь в вашу команду благодаря моему чувству юмора, предусмотрительности и общительности.",
         "location" : "Место жительства: Харьков, Украина",
         "contacts" :"Мои контакты",
@@ -98,8 +98,8 @@
         "addEducation-text3":"Java продвинутый курс (не закончен) | октябрь 2016 - декабрь 2016"
     },
     "uk-UA" :{
-        "title":"Дмитрієв Олександр - Junior Fullstack Developer",
-        "resume" : "Резюме",
+        "title":"Дмитрієв Олександр",
+        "resume" : "Junior Fullstack Developer",
         "resume-text" : "Я junior fullstack developer, який зараз активно вивчає HTML5, CSS, Javascript, React and Node.js. Мої знання англійської мови поки ще на початковому рівні. Розробка додатків для мене це дуже цікавий процес тому, що це дуже творча робота, на якої тебе завжди чекає що-небудь нове. Кожна задача має дуже багато варіантів рішень. Та найбільш приємне — це знаходити оптимальне. Я вільно вільюся до вашої команди завдяки моєму почуттю гумору, передбачливості та товариськісті.",
         "location" : "Місце проживання: Харків, Україна",
         "contacts" :"Мої контакти",
